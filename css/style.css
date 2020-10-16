@@ -858,6 +858,23 @@ ul.list li a:hover p.name {
   opacity: 0.8;
 }
 
+.file {
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  padding: .2rem .6rem;
+  border: 1px solid #ac4e5c;
+  border-top: 0;
+  background-color: #ac4e5c;
+  color: #fff;
+}
+
+.file:hover {
+  background-color: #fff;
+  color: #ac4e5c;
+  transition: .2s;
+}
+
 .listExperience > li {
   display: flex;
   padding-right: 10px;
