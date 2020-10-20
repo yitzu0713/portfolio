@@ -351,7 +351,7 @@ header nav {
 .col-6 .content {
   width: 350px;
   line-height: 1.5;
-  color: #aa8d61;
+  color: #9a7234;
   z-index: 1;
 }
 
@@ -817,6 +817,11 @@ ul.list li a:hover p.name {
 
 .about .wrapper {
   display: flex;
+}
+
+.a-intro {
+  line-height: 21px;
+  padding-right: 1.5rem;
 }
 
 .about h3 {
