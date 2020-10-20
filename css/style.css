@@ -231,6 +231,10 @@ body::-webkit-scrollbar-corner {
   background-color: #ac4e5c;
 }
 
+.bodyInner {
+  background: url(../images/bgt.jpg) repeat;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
