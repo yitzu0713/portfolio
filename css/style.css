@@ -1219,4 +1219,8 @@ ul.list li a:hover p.name {
   }
   .profile img {
     width: 200px;
+  }
+  .file {
+    right: 0;
+  }
 }
