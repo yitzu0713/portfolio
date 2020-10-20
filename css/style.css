@@ -812,7 +812,7 @@ ul.list li a:hover p.name {
 .about .col-4 > h2 {
   position: absolute;
   top: -1.5rem;
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding: 0 1rem;
 }
 
