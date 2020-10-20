@@ -1229,4 +1229,7 @@ ul.list li a:hover p.name {
   .file {
     right: 0;
   }
+  .a-intro {
+    padding-right: 0;
+  }
 }
