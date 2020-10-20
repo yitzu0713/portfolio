@@ -569,6 +569,7 @@ p.category {
   background-image: url(../images/bg-2.jpg);
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   transform: translateZ(-1px) scale(1.1);
 }
 
