@@ -658,7 +658,7 @@ ul.list li {
 
 ul.list li a {
   display: block;
-  margin: 1rem 1rem 3rem 1rem;
+  margin: 1rem;
   position: relative;
   overflow: hidden;
 }
@@ -827,7 +827,7 @@ ul.list li a:hover p.name {
 
 .about h3 {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 20px;
   font-weight: 600;
   font-size: 1.3rem;
 }
@@ -873,7 +873,7 @@ ul.list li a:hover p.name {
   position: absolute;
   top: 0;
   right: 3rem;
-  padding: .2rem .6rem;
+  padding: 0.2rem 0.6rem;
   border: 1px solid #ac4e5c;
   border-top: 0;
   background-color: #ac4e5c;
@@ -883,7 +883,7 @@ ul.list li a:hover p.name {
 .file:hover {
   background-color: #fff;
   color: #ac4e5c;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .listExperience > li {
@@ -999,6 +999,17 @@ ul.list li a:hover p.name {
   border-radius: 10px;
 }
 
+.listProgram .in-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: -.5rem;
+}
+
+.listProgram .in-wrapper p {
+  margin: 0;
+  margin-left: .5rem;
+}
+
 .value {
   height: 100%;
   background-color: #ac4e5c;
@@ -1063,6 +1074,16 @@ ul.list li a:hover p.name {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.circle .pvalue {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #ac4e5c;
+  z-index: 3;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .p90,
@@ -1221,7 +1242,8 @@ ul.list li a:hover p.name {
   .about h4 {
     margin-bottom: 0.5rem;
   }
-  .about .wrapper, .listExperience li.subTitle {
+  .about .wrapper,
+  .listExperience li.subTitle {
     flex-direction: column-reverse;
   }
   .profile img {
