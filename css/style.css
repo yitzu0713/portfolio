@@ -766,7 +766,7 @@ ul.list li a:hover p.name {
   text-align: center;
   padding: 1rem;
   color: #ac4e5c;
-  background-color: #fff;
+  background-color: transparent;
   width: 20%;
   border: 1px solid #ac4e5c;
   border-radius: 25px;
