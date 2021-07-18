@@ -644,6 +644,7 @@ footer h3 {
 .works h1 {
   font-size: 2rem;
   text-align: center;
+  color: #ac4e5c;
 }
 
 .works h1::after {
