@@ -871,7 +871,7 @@ ul.list li a:hover p.name {
 
 .about .name {
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: bold;
   margin-left: 0;
   margin-bottom: 0;
   display: block;
