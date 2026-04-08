@@ -879,7 +879,11 @@ ul.list li a:hover p.name {
 
 .about h4 {
   margin: 0.5rem 0;
-  font-weight: 700;
+  font-weight: bold;
+}
+
+.about h4 span {
+  font-weight: normal;
   opacity: 0.8;
 }
 
